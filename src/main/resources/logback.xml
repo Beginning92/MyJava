@@ -108,10 +108,11 @@
 	<logger name="org.apache.zookeeper.ClientCnxn" level="WARN" />
 	<logger name="org.mybatis.spring.SqlSessionUtils" level="WARN" />
 	<logger name="com.dangdang.ddframe.job" level="INFO" />
+	<logger name="com.mongodb" level="INFO" />
 	<!--开发环境为DEBUG等级 -->
-	<root level="DEBUG">
+	<root level="INFO">
 		<appender-ref ref="INFO_ROLLING" />
-		<appender-ref ref="DEBUG_ROLLING" />
+		<!--<appender-ref ref="DEBUG_ROLLING" />-->
 		<appender-ref ref="ERROR_ROLLING" />
 		<appender-ref ref="STDOUT" />
 	</root>
