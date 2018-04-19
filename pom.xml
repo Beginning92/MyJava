@@ -81,6 +81,19 @@
             <version>1.7.21</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>bson</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+
         <!-- spring boot引入相关web开发jar包，包括spring,spring mvc,spring boot,json框架等等 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
